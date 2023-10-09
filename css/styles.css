@@ -1,0 +1,488 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+  color: inherit;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: 0px;
+}
+
+/* All common css ends */
+
+/* shortcut css */
+
+.heading {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  color: white;
+}
+
+.headingTwo {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  color: #282938;
+}
+
+.headingThree {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #282938;
+}
+
+.paraOne {
+  color: #282938;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+.paraTwo {
+  color: #282938;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.paraThree {
+  color: #282938;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.paraFour {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.font-500 {
+  font-weight: 500 !important;
+}
+
+.opacity-1 {
+  opacity: 1 !important;
+}
+/* shortcut css */
+
+/* nav part starts  */
+
+nav {
+  background-color: #1c1e53;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+nav div {
+  padding: 16px 0;
+}
+
+nav div img {
+  width: 122px;
+  height: 28px;
+  margin-top: 16px;
+}
+
+nav ul {
+  gap: 32px;
+  margin: 15px 48px 0 452px;
+  font-size: 16px;
+  color: #bbbbcb;
+  font-weight: 500;
+}
+
+nav ul li a {
+  transition: 0.5s;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+nav button {
+  transform: 0.5s;
+  padding: 14px 28px;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border: 2px solid;
+  transition: 0.5s;
+}
+
+nav button:hover {
+  background-color: #fcd980;
+  color: #1b1c2b;
+}
+
+/* nav part ends */
+
+/* Banner parts starts */
+
+.banner {
+  padding: 128px;
+  background-color: #1c1e53;
+}
+
+.banner h1 {
+}
+
+.banner p {
+  margin: 24px 0 48px;
+  color: var(--White, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+}
+
+.bannerBtn {
+  font-family: "Manrope", sans-serif;
+  color: white;
+}
+
+.bannerBtn {
+  color: white;
+  padding: 16px 56px;
+  border-radius: 41px;
+}
+
+.bannerBtn:hover {
+  background-color: #fcd980;
+  background-color: #fcd980;
+  color: #1b1c2b;
+}
+
+.banner button:last-child {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.banner button:last-child i {
+  margin-left: 16px;
+  align-items: middle;
+}
+
+.banner img {
+  margin-left: 60px;
+}
+/* Banner parts starts */
+
+/* work part starts */
+
+.work {
+  padding: 128px 0;
+  background-color: #f4f6fc;
+}
+
+.work .headingTwo p:first-child {
+  padding: 16px 0;
+}
+
+.workBluePara {
+  color: #2405f2;
+}
+
+.work .paraFour i {
+  margin-left: 16px;
+}
+
+.workPartRight h4 {
+  margin: 16px 0 8px;
+  width: 328px;
+}
+
+.workPartRight p {
+  width: 303px;
+}
+
+.workBoxBtm {
+  margin-top: 48px;
+}
+
+.WorkRightBoxPara {
+  margin: 16px 0;
+}
+/* work part ends */
+
+/* project part starts */
+.project {
+  padding: 128px 0;
+  background-color: white;
+}
+
+.projectHeading {
+  margin-bottom: 64px;
+}
+
+.projectHeading p {
+  margin-top: 21px;
+  color: #282938 !important;
+}
+
+.projectHeading p i {
+  margin-left: 16px;
+}
+
+.projectImgBox {
+}
+
+.projectImgOne {
+  width: 100%;
+}
+
+.projectImgOneHover {
+  width: 396px;
+  height: 100%;
+  background: linear-gradient(
+    329deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+  opacity: 0;
+}
+
+.projectImgBoxOne:hover .projectImgOneHover {
+  opacity: 1;
+}
+
+.projectImgOneHover > div {
+  margin: 312px 0 0 48px;
+}
+
+.projectImgOneHover > div h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  width: 313px;
+}
+
+.projectImgOneHover > div p,
+.ProjectBtn {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.projectImgOneHover > div p:first-of-type {
+  margin: 16px 0 40px;
+  width: 293px;
+}
+
+.projectImgOneHover > div p:last-child,
+.ProjectBtn {
+  color: #fcd980;
+}
+
+.projectImgTwoHover {
+  width: 405px;
+  height: 284px;
+  background: linear-gradient(
+    329deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+  left: 10px;
+  opacity: 0;
+}
+
+.projectImgTwo img {
+  width: 100%;
+}
+
+.projectImgTwo:hover .projectImgTwoHover {
+  opacity: 1;
+}
+
+.projectImgTwoHover > div {
+  margin: 129px 0 0 56px;
+}
+
+.projectImgTitle {
+  width: 313px !important;
+  padding-right: 78px;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+.projectImgThree {
+  margin-top: 42px;
+  margin-left: 10px;
+}
+/* project part ends */
+
+/* Problem solve part starts */
+
+.sp {
+  padding: 128px 0;
+  background-color: #f4f6fc;
+}
+
+.sp h2 {
+  width: 630px;
+  margin-bottom: 47px;
+}
+
+.spBox {
+  padding: 58px 33px 48px 48px;
+  background-color: #ffffff;
+  width: 405px;
+  box-sizing: border-box;
+}
+
+.spBox h3 {
+  margin: 22px 0 12px;
+  color: var(--Dark-blue, #282938);
+
+  /* Heading 6 */
+  font-size: 24px;
+  font-style: normal;
+}
+
+.spBox p {
+  widows: 325px;
+}
+
+.spBoxContainer {
+  gap: 32px;
+}
+
+/* Problem solve part ends */
+
+/* Blog part starts */
+
+.blog {
+  padding: 128px 0;
+  background-color: white;
+}
+
+.blog h3 {
+  margin-bottom: 64px;
+}
+
+.blogBox {
+  width: 405px;
+}
+
+.blogBox img {
+  margin-bottom: 40px;
+}
+
+.fa-arrow-right-long {
+  margin-left: 16px;
+}
+
+.blogBox h4 {
+  margin: 16px 0;
+}
+
+.blogR {
+  margin-top: 32px;
+}
+/* Blog part ends */
+
+/* Footer part starts */
+
+.footer {
+  padding-top: 100px;
+  background-color: #1c1e53;
+}
+
+.mainFooter {
+  gap: 170px;
+}
+
+.footerL p {
+  margin-top: 22px;
+  margin-bottom: 86px;
+  color: var(--White, #fff);
+  width: 399px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  opacity: 0.8;
+}
+
+.yellowBox {
+  width: 517px;
+  background-color: #fcd980;
+  gap: 29px;
+  padding: 18px 0 16px 37px;
+  box-sizing: border-box;
+}
+
+.yellowBox h5 {
+  color: var(--Dark-blue, #282938);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px; /* 177.778% */
+}
+
+.footerR h3 {
+  color: #fff;
+
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.footerR p {
+  color: var(--Grey, #f4f6fc);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 14px 0 28px;
+  width: 399px;
+}
+
+.footerR i {
+  margin-right: 27px;
+}
+
+.bottom {
+  background-color: white;
+  padding: 32px 0;
+  color: var(--Dark-blue, #282938);
+
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.bottom ul {
+  gap: 32px;
+}
+/* Footer part ends */

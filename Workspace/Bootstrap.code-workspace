@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../Figma"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Figma"
+  }
+}

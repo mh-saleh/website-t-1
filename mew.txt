@@ -1,0 +1,64 @@
+
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+
+
+/* shortcut css */
+
+.heading {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  color: white;
+}
+
+.headingTwo {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  color: #282938;
+}
+
+.headingThree {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #282938;
+}
+
+. paraOne {
+  color: #282938;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+.paraTwo {
+  color: #282938;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.paraThree {
+  color: #282938;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.paraFour {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.font-500 {
+  font-weight: 500 !important;
+}
+
+.opacity-1 {
+  opacity: 1 !important;
+}
+/* shortcut css */
